@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+
+
+.container {
+    min-width: 100%;
+    padding: 0 0;
+
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1595602881855-b1ce060f6673?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+}
+.text {
+    /* margin-left: 10vw; */
+    display: grid;
+    background-color: rgba(96, 99, 96, 0.477);
+    justify-content: center;
+    margin-top: 1vw;
+    width: 60%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.title {
+    font-size:x-large;
+    height: fit-content;
+    padding: 0 12px;
+    display: grid;
+    justify-self: center;
+    border-radius: 10px;
+    width: 50vw;
+    height: 3vw;
+    margin-top: 20px;
+}
+
+.desc {
+    margin-top: 100px;
+    margin-right: .5rem !important;
+    height: 200px;
+    width: 51vw;
+    position: relative;
+    bottom: 25%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    text-align: top ;
+    line-height: normal;
+    /* resize: none; */
+    /* width: 300px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px; */
+    
+}
+.heading{
+    margin-top: 20px;
+    text-align:center;
+    color: black;
+}
+
+.time{
+    position: relative;
+    bottom: 100%;
+}
+
+.btndclass{
+    position:relative;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin:  0 4px;
+    width: 7vw;
+}
+
+.content{
+    display: flex;
+
+}
+.i:hover{
+   cursor: pointer;
+   color:royalblue
+
+}
+
+
+@media (max-width: 768px) {
+    .text {
+        width: 80%;
+    }
+
+    .title,
+    .desc,
+    .time {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1276px)
+{
+    .content{
+        flex-direction: column;
+
+    }
+    .inc{
+        position: relative;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .text {
+        width: 90%;
+    }
+
+    .title,
+    .desc,
+    .time {
+        width: 90%;
+    }
+}
